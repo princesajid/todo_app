@@ -1,0 +1,27 @@
+/*
+app-template.css overrides
+remove this comment if used
+remove this file if not
+*/
+.submit_button{
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    border: none;
+    background: none;
+    font-size: 22px;
+    opacity: 0.2;
+    cursor: pointer;
+}
+.todo-list li .destroy{
+    height: 25px;
+    text-decoration: none;
+}
+.clear-completed{
+    float: right;
+    position: relative;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
